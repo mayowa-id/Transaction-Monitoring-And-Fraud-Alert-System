@@ -66,8 +66,8 @@ RUNNING THE APPLICATION
 1. Clone the repo
 2. Start RabbitMQ, ensure RabbitMQ is running.
 3. Build and run each service (transaction-service and fraud-detection-service)
-4. and execute ./mvnw spring-boot:run 
-5. Testing the Application: Use the following command to send a transaction to the Transaction
+   and execute ./mvnw spring-boot:run 
+4. Testing the Application: Use the following command to send a transaction to the Transaction
    service API
 
 curl -X POST http://localhost:8080/api/transactions -H "Content-Type: application/json" -d '{"id": "1", "amount": 15000}'
