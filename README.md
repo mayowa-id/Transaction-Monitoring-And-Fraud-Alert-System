@@ -9,14 +9,22 @@ RabbitMQ will be used  for communication. Basically I created two microservices:
 PROJECT STRUCTURE 
 fraud-detection-system/
 ├── rabbitmq-config/ 
+        
         └── RabbitMQConfig.java # RabbitMQ queues and config  
+
 ├── transaction-service/ 
+        
         ├── TransactionService.java # Service to send transactions to fraud detection  
+        
         ├── TransactionController.java # REST controller for transaction submission 
-└── model/ │ 
+
+└── model/ 
+        
         └── Transaction.java # Model representing a transaction (used for deserialization)  
+
 ├── fraud-detection-service/ 
-        ├── FraudDetectionService.java # Service to check for fraudulent transactions 
+        
+      ├── FraudDetectionService.java # Service to check for fraudulent transactions 
 
 └── README.md # Documentation
 
