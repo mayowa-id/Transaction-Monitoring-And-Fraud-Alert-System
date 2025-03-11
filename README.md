@@ -1,9 +1,12 @@
 # Transaction-Monitoring-And-Fraud-Alert-System
 
-This project is a couple of microservices that function as a fraud detection system. 
-RabbitMQ will be used  for communication. Basically I created two microservices:
-1. Transaction Service : It accepts incoming transactions.
-2. Fraud Detection Service : Monitores transactions for potentially fraudulent activity.
+Overview
+
+This project consists of a couple of microservices that function as a fraud detection system. RabbitMQ is used for asynchronous communication between services. The system comprises two primary microservices:
+
+Transaction Service: Accepts and processes incoming transactions.
+
+Fraud Detection Service: Monitors transactions for potentially fraudulent activity.
 
 
 PROJECT STRUCTURE 
